@@ -1,10 +1,25 @@
-readme = r"""# Scientific Calculator + Converters (Tkinter)
-
-A polished, single-file **Scientific Calculator** with a **Converter** suite — built with the Python standard library (Tkinter only).  
-No 3rd-party deps. Safe expression evaluator (no `eval`/`exec`).
+## UI Tour
+- **Top bar**: title, current angle mode (DEG/RAD), theme toggle.
+- **Entry panel**: main input box + gray live preview line underneath.
+- **Keypad grid**: primary functions; press 2nd to switch to the alternate set.
+- **Right panel (History)**: shows expression = result. Double-click a line to paste its result back into the entry. “🧹 Clear History” to wipe it.
+- **Menu** → **Settings**:
+- **Angle** Mode: Radians or Degrees
+- **Precision**: 6–15 significant digits
+- **UI Scale**: 100–175%
+- **Clear Entry**, **Toggle Theme**
+- **Tabs**: Calculator and Converter (left list of categories, right active panel).
 
 ---
 
+## Shortcuts
+- **Enter / Numpad Enter** — Evaluate
+- **Esc / Ctrl+Backspace** — Clear entry
+- **Backspace — Delete** one char
+- **Double-click History** — Paste result into entry
+- **2nd** — Toggle alternate functions
+
+---
 ## ✨ User Interface
 <img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/84f8f496-b0b3-4f76-a388-78e1e4858784" />
 <img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/afbb0e09-b44f-4c2d-aa24-2f2c63af078a" />
