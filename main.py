@@ -1,24 +1,4 @@
-#!/usr/bin/env python3
-"""
-Scientific Calculator + Converters (Tkinter)
-
-- Light/Dark • scalable UI • live preview • history • memory • 2nd layer
-- Converters: Length, Mass, Area, Volume, Speed, Temperature, Time, Data,
-  Numeral System, BMI, Discount, Finance, Date difference, Currency (manual)
-- Safe AST evaluator (no eval/exec), degree/radian, precision control
-
-Input guards
-- Unified sanitization for keyboard, buttons, paste
-- Auto '*' before functions/constants/'(' and also before digits/'.' if they
-  follow a value (e.g., ans4 -> ans*4, )3 -> )*3, pi.5 -> pi*0.5)
-- Keep '*' ≤ '**'; disallow '//' floor-div; replace operator runs
-- Only unary '-' allowed at start or just after '('
-- No more ')' than '('; ',' only inside parentheses with a left value
-- Expression & preview length limits; empty preview '= 0.00'
-"""
-
 from __future__ import annotations
-
 import ast
 import math
 import datetime as _dt
@@ -1008,3 +988,4 @@ def main()->int:
 
 if __name__=="__main__":
     raise SystemExit(main())
+
