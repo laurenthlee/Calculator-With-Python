@@ -1,4 +1,3 @@
-# Create a README.md file for the calculator project
 readme = r"""# Scientific Calculator + Converters (Tkinter)
 
 A polished, single-file **Scientific Calculator** with a **Converter** suite — built with the Python standard library (Tkinter only).  
